@@ -29,13 +29,20 @@ public class DisableImageTracking : MonoBehaviour
 
         if (toggleButton != null)
         {
+            toggleButton.onClick.AddListener(ListAllImages);
             toggleButton.onClick.AddListener(ResetSession);
+
         }
     }
 
     void ResetSession()
     {
-        arSession.Reset();
+        foreach (var image in m_TrackedImageManager.trackables)
+            image.gameObject.SetActive(false);
+
+
+
+        //arSession.Reset();
         Debug.Log("Session reset and tracking enabled");
         m_TrackedImageManager.enabled = true;
     }
@@ -47,22 +54,34 @@ public class DisableImageTracking : MonoBehaviour
             // Handle added event
             Debug.Log("new Image detected, tracking disabled");
             m_TrackedImageManager.enabled = false;
+
+            foreach (var updatedImage in eventArgs.updated)
+            {
+                // Handle updated event
+                //Debug.Log("Image updated");
+
+            }
+
+            foreach (var removedImage in eventArgs.removed)
+            {
+                // Handle removed event
+                Debug.Log("Image removed ");
+
+
+            }
         }
 
-        foreach (var updatedImage in eventArgs.updated)
-        {
-            // Handle updated event
-            //Debug.Log("Image updated");
-
-        }
-
-        foreach (var removedImage in eventArgs.removed)
-        {
-            // Handle removed event
-            Debug.Log("Image removed ");
-
-
-        }
     }
+        void ListAllImages()
+        {
+            //Debug.Log( $"There are {m_TrackedImageManager.trackables.count} images being tracked.");
 
-}
+            foreach (var trackedImage in m_TrackedImageManager.trackables)
+            {
+                Debug.Log($"Image: {trackedImage.referenceImage.name} is at " +
+                          $"{trackedImage.transform.position}");
+
+            }
+        }
+
+    }

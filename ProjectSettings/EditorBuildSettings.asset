@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/TrackingTest.unity
+    path: Assets/Scenes/ARchaeologie.unity
     guid: af4c535a3b91b4b51bfff6be59590a2f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eefd1e20a45904d79a9eb54101534c98,

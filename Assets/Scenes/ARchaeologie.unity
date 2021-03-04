@@ -689,7 +689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ARcamera: {fileID: 311320584}
   toggleButton: {fileID: 400218656}
-  isTrackingText: {fileID: 763719897}
+  text: {fileID: 0}
+  m_TrackedImageManager: {fileID: 0}
   arSessionObject: {fileID: 1153332158}
 --- !u!114 &639580527
 MonoBehaviour:
@@ -803,7 +804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Gedr\xFCckt halten um Tracking zu aktivieren"
+  m_Text: Push to reload Tracking
 --- !u!222 &653110090
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -829,7 +830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &763719896
 RectTransform:
   m_ObjectHideFlags: 0
