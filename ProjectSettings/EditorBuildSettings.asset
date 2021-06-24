@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ARchaeologie.unity
     guid: af4c535a3b91b4b51bfff6be59590a2f
   m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: fe45c9e1688ca4fc290f8c045b6d3929,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eefd1e20a45904d79a9eb54101534c98,
       type: 2}

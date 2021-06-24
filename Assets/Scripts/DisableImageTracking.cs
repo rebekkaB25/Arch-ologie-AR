@@ -35,21 +35,21 @@ public class DisableImageTracking : MonoBehaviour
         }
     }
 
-    void ResetSession()
+    void ResetSession()  //resets the session when pushing the button, all detected images gets deleted an tracking gets enabled
     {
-        foreach (var image in m_TrackedImageManager.trackables)
-            image.gameObject.SetActive(false);
+        //foreach (var image in m_TrackedImageManager.trackables)
+            //image.gameObject.SetActive(false);
 
 
 
-        //arSession.Reset();
+        arSession.Reset();
         Debug.Log("Session reset and tracking enabled");
         m_TrackedImageManager.enabled = true;
     }
 
-    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
+    void OnChanged(ARTrackedImagesChangedEventArgs eventArgs) //if the marker is detected, tracking gets disabled
     {
-        foreach (var newImage in eventArgs.added)
+        foreach (var newImage in eventArgs.added) 
         {
             // Handle added event
             Debug.Log("new Image detected, tracking disabled");
@@ -72,7 +72,7 @@ public class DisableImageTracking : MonoBehaviour
         }
 
     }
-        void ListAllImages()
+        void ListAllImages() //lists the number of detected images to check if disabling tracking is working properly
         {
             //Debug.Log( $"There are {m_TrackedImageManager.trackables.count} images being tracked.");
 

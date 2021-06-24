@@ -1,0 +1,130 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49622
+Successfully changed project path to: /Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+/Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-17 21:37:11.176 Unity[3671:28773] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-06-17 21:37:11.176 Unity[3671:28773] Metal devices available: 1
+2021-06-17 21:37:11.176 Unity[3671:28773] 0: Intel Iris Pro Graphics (low power)
+2021-06-17 21:37:11.176 Unity[3671:28773] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56671
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002073 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.706 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 46.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WARNING: RGBA Compressed PVRTC 4BPP UNorm format is not supported, decompressing texture
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.718 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.1 MB.
+System memory in use after: 149.1 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 3.128041 ms (FindLiveObjects: 0.239654 ms CreateObjectMapping: 0.073618 ms MarkObjects: 2.664786 ms  DeleteObjects: 0.147721 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/DisableImageTracking.cs
+  artifactKey: Guid(976228f1981744d589b2cd48948d37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DisableImageTracking.cs using Guid(976228f1981744d589b2cd48948d37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a61e43e9f41eb16a9b11d5cefbbdb5a') in 4.798472 seconds
+  Import took 4.803323 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.4 MB.
+System memory in use after: 149.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 4.015362 ms (FindLiveObjects: 0.356083 ms CreateObjectMapping: 0.107371 ms MarkObjects: 3.452773 ms  DeleteObjects: 0.097461 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1211.889853 seconds.
+  path: Assets/Scripts/DisableImageTracking.cs
+  artifactKey: Guid(976228f1981744d589b2cd48948d37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DisableImageTracking.cs using Guid(976228f1981744d589b2cd48948d37dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4d02cf04ebce71cd51d6b12925fcdc') in 0.015701 seconds
+  Import took 0.020591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.293900 seconds.
+  path: Assets/Scripts/LightEstimation.cs
+  artifactKey: Guid(f58b18f07290c40babd8ec90b439a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LightEstimation.cs using Guid(f58b18f07290c40babd8ec90b439a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ac1a903dfdcab8eb54eb284aac4a73') in 0.004053 seconds
+  Import took 0.008419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.952946 seconds.
+  path: Assets/Scripts/ReferencePoint.cs
+  artifactKey: Guid(817f20f047ebe4bc38100e46b14de093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ReferencePoint.cs using Guid(817f20f047ebe4bc38100e46b14de093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b036d7d8ae56fdae40ecd2f17898740a') in 0.003716 seconds
+  Import took 0.007255 seconds .
+

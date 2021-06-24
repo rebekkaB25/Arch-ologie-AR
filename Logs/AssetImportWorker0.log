@@ -1,0 +1,136 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50323
+Successfully changed project path to: /Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+/Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 93.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/rebekkabarthele/Documents/ARchäologie Kram/gitArchäologie2 Kopie/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-18 10:04:38.975 Unity[6528:171027] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-06-18 10:04:38.975 Unity[6528:171027] Metal devices available: 1
+2021-06-18 10:04:38.975 Unity[6528:171027] 0: Intel Iris Pro Graphics (low power)
+2021-06-18 10:04:38.976 Unity[6528:171027] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.015811 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.710 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 40.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+WARNING: RGBA Compressed PVRTC 4BPP UNorm format is not supported, decompressing texture
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.2 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 4.185775 ms (FindLiveObjects: 0.438325 ms CreateObjectMapping: 0.137252 ms MarkObjects: 3.417119 ms  DeleteObjects: 0.191176 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs
+  artifactKey: Guid(93de6c1522e0e43eda09c53d55216fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(93de6c1522e0e43eda09c53d55216fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46b5448b68a5b0b855947ae0e03dd9a') in 0.007274 seconds
+  Import took 0.013925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.861562 seconds.
+  path: Assets/XR
+  artifactKey: Guid(d94cc31d3db88427784671f2686e8777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(d94cc31d3db88427784671f2686e8777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0cb5e0bd2109c6d62f6e29f030deda') in 0.003293 seconds
+  Import took 0.008987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056248 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(eefd1e20a45904d79a9eb54101534c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(eefd1e20a45904d79a9eb54101534c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9268672499416ab37f3062dd5f9f5653') in 1.376185 seconds
+  Import took 1.381582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.872231 seconds.
+  path: Assets/Models
+  artifactKey: Guid(a1a1406e9668e404293df049bf9809f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(a1a1406e9668e404293df049bf9809f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22254a0b3ccf12e13b54525a72ffc2f') in 0.002274 seconds
+  Import took 0.007259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.279462 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(60f760bb2d0534b198b6390fde1b0d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(60f760bb2d0534b198b6390fde1b0d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7499421a385925ff5e6b468165167a') in 0.002906 seconds
+  Import took 0.007748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000974 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(60f760bb2d0534b198b6390fde1b0d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(60f760bb2d0534b198b6390fde1b0d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7499421a385925ff5e6b468165167a') in 0.003192 seconds
+  Import took 0.010681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.168401 seconds.
+  path: Assets/Images
+  artifactKey: Guid(b5c13a05c401949259bfea072f3e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(b5c13a05c401949259bfea072f3e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d43c4322f9f0355256ed1bae4b2c42') in 0.002343 seconds
+  Import took 0.008976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Images
+  artifactKey: Guid(b5c13a05c401949259bfea072f3e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(b5c13a05c401949259bfea072f3e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d43c4322f9f0355256ed1bae4b2c42') in 0.001829 seconds
+  Import took 0.005518 seconds .
+
